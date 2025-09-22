@@ -4,28 +4,26 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>ColorRave — Landing</title>
-  
+
   <link rel="stylesheet" href="./modern-normalize.css">
 
-  <link rel="stylesheet" href="css/reset.css" />
-
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-      <div class="logo"><img src="./img/nike.png" alt=""></div>
+      <div class="logo"><img src="./img/nike.png" alt="nike"></div>
       <nav class="main-nav">
-        <a href="#">Main page</a>
+        <a class="main-page" href="#">Main page</a>
         <a href="#">Benefits</a>
         <a href="#">Advantages</a>
         <a href="#">Reviews</a>
         <a href="#">Contacts</a>
-        <a class="lang" href="#">Ua Eng</a>
+        <a href="#">Ua</a><a class="lang" href="./index.html">Eng</a>
       </nav>
     </div>
   </header>
@@ -37,11 +35,12 @@
         <div class="hero-text">
             <img src="./img/nike.png" alt="nike">
             <h1>C&R</h1>
-          <h1><span class="brand">ColoRave</span><br><small>Your dream Nike</small></h1>
-          <p class="lead">On this site you can find custom Nike sneakers of your dreams.
-            The original company can create such beautiful sneakers as we do. Good luck finding your way in the world of custom sneakers.</p>
+          <h1><span class="brand">ColoRave</span><br><span class="nike">Your dream Nike</span></h1>
+          <p class="lead">On this site you can find custom Nike sneakers of your dreams.<br>
+            The original company can create such beautiful <br> sneakers as we do. <br> Good luck finding your way in the world of custom sneakers.</p>
           <a class="btn-primary" href="#">Buy my Nike</a>
         </div>
+      </div>
     </section>
 
     <!-- BENEFITS -->
@@ -50,28 +49,49 @@
         <div class="benefits-grid">
           <div class="benefit-card">
             <h4>Premium Quality</h4>
-            <img src="./img/premium_quality.png" alt="">
+            <img src="./img/premium_quality.png" alt="Premium Quality">
           </div>
           <div class="benefit-card">
-            <img src="./img/indelible_paint.png" alt="">
+            <img src="./img/indelible_paint.png" alt="Indelible paint">
             <h4>Indelible paint</h4>
           </div>
           <div class="benefit-card">
             <h4>Fast shipping</h4>
-            <img src="./img/fast_shipping.png" alt="">
+            <img src="./img/fast_shipping.png" alt="Fast shipping">
           </div>
         </div>
       </div>
     </section>
 
-        <!-- REVIEWS -->
+    <!-- REVIEWS -->
     <section class="reviews">
       <div class="container">
         <h2 class="section-title">Reviews</h2>
         <div class="reviews-row">
-          <article class="review-card gradient-a">
-          <img src="./img/reviews_text.png" alt="">
-          </article>
+          <div class="review-card class-1" style="background:linear-gradient(135deg,#00E5E6 7%,#00A8F7 26%, #9A76F9 63%, #CC5EC2 100%)">
+            <p>Sneakers are very <br>comfortable and well <br> painted, nothing has <br> worn off in a year.</p>
+            <small>25.11</small>
+            <div class="author">
+              <img src="./img/john-teylor.png" alt="John">
+              <span>John Teylor<br><small>With us from 2018</small></span>
+            </div>
+          </div>
+          <div class="review-card class-2" style="background:linear-gradient(135deg,#FF68B4 0%,#FF45E1 26%, #CE3AFF 63%, #8961FF 100%)">
+            <p>I'm very happy with  <br>this color scheme.  <br>They match all my <br>clothes.</p>
+            <small>05.01</small>
+            <div class="author">
+              <img src="./img/elizabeth-garsia.png" alt="Elizabeth">
+              <span>Elizabeth Garsia<br><small>With us from 2020</small></span>
+            </div>
+          </div>
+          <div class="review-card class-3" style="background:linear-gradient(135deg,#FFE128 0%,#FF9B5C 30%, #FF8381 63%, #FF5489 100%)">
+            <p>Just right if you need <br>to go to a <party class="br"></party> I use them actively,<br> the paint is super.</p>
+            <small>18.06</small>
+            <div class="author">
+              <img src="./img/tom-maquare.png" alt="Tom">
+              <span>Tom Maquare<br><small>With us from 2019</small></span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -85,32 +105,43 @@
             <input type="email" placeholder="Write your email" required>
             <button type="button" class="confirm">Confirm</button>
           </div>
-
           <input type="text" placeholder="Your Country">
           <input type="text" placeholder="Your City">
           <input type="text" placeholder="Your Address">
-
           <button class="btn-primary fullwidth" type="submit">Order my Nike</button>
         </form>
       </div>
     </section>
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-left">
-          <p>Have a question?<br>Have a proposal for cooperation?<br>Advertising questions?</p>
-        </div>
-        <div class="footer-right">
-          <a href="mailto:ColorRawe_support@gmail.com">ColorRawe_support@gmail.com</a><br>
-          <a href="mailto:ColorRawe_Cooperation@gmail.com">ColorRawe_Cooperation@gmail.com</a><br>
-          <a href="mailto:ColorRawe_Advertising@gmail.com">ColorRawe_Advertising@gmail.com</a>
-        </div>
-      </div>
-      <div class="copyright">© 2022 ColoRawe — All rights reserved</div>
-    </footer>
   </main>
 
-</body>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>
+          Have a question?<br>
+          Have a proposal for cooperation?<br>
+          Advertising questions?
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="mailto:ColorRawe_support@gmail.com">ColoRawe_support@gmail.com</a><br>
+        <a href="mailto:ColorRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a><br>
+        <a href="mailto:ColorRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+      </div>
+    </div>
 
+    <div class="line"></div>
+
+    <div class="container footer-bottom">
+      <div class="copyright">
+        2022 ColoRawe @All rights reserved<br>United States
+      </div>
+      <div class="footer-logo">
+        <img src="./img/nike.png" alt="C&R logo">
+        <div>C&R</div>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
