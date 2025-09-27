@@ -9,7 +9,6 @@
 
 * { box-sizing: border-box; margin:0; padding:0; }
 
-
 body {
   font-family: 'Playfair Display', serif;
   background-image: linear-gradient(
@@ -291,6 +290,9 @@ body {
 .order {
   padding: 50px 0;
   background-image: url(./img/bg-order.png);
+  background-repeat: no-repeat;
+  background-size: auto 94.39%;
+
 }
 .order-form {
   max-width: 580px;
@@ -398,13 +400,4 @@ body {
   .reviews-row { flex-direction: column; }
   .footer-inner { flex-direction: column; text-align: center; }
   .main-nav a { display: none; }
-}
-
-@media (max-width: 900px) {
-  .hero-inner { flex-direction: column; text-align: center; }
-  .benefits-grid { flex-direction: column; }
-  .reviews-row { flex-direction: column; }
-  .footer-inner { flex-direction: column; text-align: center; }
-  .main-nav a { display: none; }
-
 }
