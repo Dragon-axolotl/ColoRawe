@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ColorRave — Landing</title>
+  <title>ColorRave</title>
 
   <link rel="stylesheet" href="./modern-normalize.css">
 
@@ -98,21 +98,35 @@
 
     <!-- ORDER -->
     <section class="order">
-      <div class="container">
-        <h2 class="section-title">Замовлення</h2>
-        <form class="order-form" action="#" method="POST">
-          <div class="email-row">
-            <input type="email" placeholder="Напишіть свій email" required>
-            <button type="button" class="confirm">Підтвердити</button>
-          </div>
-          <input type="text" placeholder="Ваша країна">
-          <input type="text" placeholder="Ваше місто">
-          <input type="text" placeholder="Ваша адреса">
-          <button class="btn-primary fullwidth" type="submit">Замовити мій Nike</button>
-        </form>
+  <div class="container">
+    <h2 class="section-title">замовлення</h2>
+    <form class="order-form" action="#" method="POST">
+
+      <div class="input-row">
+        <input type="email" placeholder="Ваш email" required>
+        <button type="button" class="confirm">Підтвердити</button>
       </div>
-    </section>
-  </main>
+
+      <div class="input-row">
+        <input type="text" placeholder="Ваша країна">
+        <button type="button" class="confirm">Підтвердити</button>
+      </div>
+
+      <div class="input-row">
+        <input type="text" placeholder="Ваше місто">
+        <button type="button" class="confirm">Підтвердити</button>
+      </div>
+
+      <div class="input-row">
+        <input type="text" placeholder="Ваша адреса">
+        <button type="button" class="confirm">Підтвердити</button>
+      </div>
+
+      <button class="btn-primary fullwidth" type="submit">Замовити мій Nike</button>
+
+    </form>
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer class="site-footer">
